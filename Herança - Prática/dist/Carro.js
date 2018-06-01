@@ -11,7 +11,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var Veiculo_1 = require("./Veiculo");
-var Carro = (function (_super) {
+var Carro = /** @class */ (function (_super) {
     __extends(Carro, _super);
     function Carro(modelo, numeroDePortas) {
         var _this = _super.call(this) || this;

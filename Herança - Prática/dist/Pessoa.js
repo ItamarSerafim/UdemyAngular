@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Pessoa = (function () {
+var Pessoa = /** @class */ (function () {
     function Pessoa(nome, carroPreferido) {
         this.nome = nome;
         this.carroPreferido = carroPreferido;

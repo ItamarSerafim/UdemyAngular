@@ -1,5 +1,5 @@
 export default class Veiculo {
-    protected modelo: string
+    protected modelo: string = '';
     private velocidade: number = 0
 
     public acelerar(): void {

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Concessionaria = (function () {
+var Concessionaria = /** @class */ (function () {
     function Concessionaria(endereco, listaDeCarros) {
         this.endereco = endereco;
         this.listaDeCarros = listaDeCarros;

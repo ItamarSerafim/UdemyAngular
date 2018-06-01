@@ -11,11 +11,13 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var Veiculo_1 = require("./Veiculo");
-var Moto = (function (_super) {
+var Moto = /** @class */ (function (_super) {
     __extends(Moto, _super);
     function Moto() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
+    Moto.prototype.acelerar = function () {
+    };
     return Moto;
 }(Veiculo_1.default));
 exports.default = Moto;
